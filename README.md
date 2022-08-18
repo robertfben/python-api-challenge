@@ -12,6 +12,7 @@ The first thing to do was to create a series of scatter plots to showcase the fo
     Humidity (%) vs. Latitude
     Cloudiness (%) vs. Latitude
     Wind Speed (mph) vs. Latitude
+<img width="423" alt="Screen Shot 2022-08-17 at 8 42 32 PM" src="https://user-images.githubusercontent.com/91276925/185267814-03efc850-b6d7-4a86-86d9-126d434ec09f.png">
 
 After each plot, added a sentence or two explaining what the code is analyzing.
 The second thing to do was to compute the linear regression for each relationship to determine potential correlation. I separated the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
@@ -24,6 +25,7 @@ The second thing to do was to compute the linear regression for each relationshi
     Southern Hemisphere - Cloudiness (%) vs. Latitude
     Northern Hemisphere - Wind Speed (mph) vs. Latitude
     Southern Hemisphere - Wind Speed (mph) vs. Latitude
+<img width="423" alt="Screen Shot 2022-08-17 at 8 42 57 PM" src="https://user-images.githubusercontent.com/91276925/185267836-b778e463-0c38-44c9-92a6-0aaa8bf6db36.png">
 
 After each pair of plots, explained what the linear regression is modeling. For example, described any relationships that I noticed and any other findings.
 
