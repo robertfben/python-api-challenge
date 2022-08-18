@@ -35,25 +35,30 @@ Notebook that includes:
   - Included a print log of each city as it's being processed, with the city number and city name.
   - Saved a CSV of all retrieved data and a PNG image for each scatter plot.
 
+### Part 2: VacationPy
 
+In this Section, I used Jupyter-gmaps and the Google Places API in order to create a heat map that displays the humidity for every city from Part 1. I then narrowed down the DataFrame to find your ideal weather condition. 
 
-## Background
-The goal of this project is to utilize Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?" We already have a sense that temperature will have a tendency to increase, but how can we use data to prove this or gather additional insights alongside this?
+I defined this as:
 
-
-
-
-
-
-
-
-
-
+    - A max temperature lower than 80 degrees but higher than 70.
+    - Wind speed less than 10 mph.
+    - Zero cloudiness.
+    
+I then dropped any rows that don't satisfy all three conditions and used the Google Places API to find the first hotel for each city located within 5,000 meters of the coordinates. Lastly, I plotted the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country.
 
 
 
 
 
-This repository contains the Module 6 API challenge Notebooks and image files.
-1) WeatherPy
-2) VacationPy
+
+
+
+
+
+
+
+
+
+
+
