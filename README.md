@@ -40,6 +40,7 @@ Notebook that includes:
 ### Part 2: VacationPy
 
 In this Section, I used Jupyter-gmaps and the Google Places API in order to create a heat map that displays the humidity for every city from Part 1. I then narrowed down the DataFrame to find your ideal weather condition. 
+![image](https://user-images.githubusercontent.com/91276925/185267991-c0d70d29-0cde-46a7-86f7-6de246aecaf7.png)
 
 I defined this as:
 
